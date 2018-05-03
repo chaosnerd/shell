@@ -6,7 +6,7 @@ cd quiz
 mkdir backup
 mkdir getup
 cd getup
-for((i=0;i<=10;i+=2));
+for (( i=0;i<=10;i+=2 ))
 do
     touch test$i
 done
